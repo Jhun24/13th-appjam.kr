@@ -25,15 +25,19 @@ $(".btn").click(function(){
     var text = $(this).text();
 
     if(text == "생활"){
+        window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
         location.href="http://169.56.126.158/drive/index.php/s/qU28j5i8Ns9GIsI";
     }
     else if(text == "게임"){
+        window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
         location.href="http://169.56.126.158/drive/index.php/s/nBHRsPy2HfoqAEu";
     }
     else if(text == "IOT"){
+        window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
         location.href="http://169.56.126.158/drive/index.php/s/QLY1EHu9ZxhcIet";
     }
     else if(text == "AI"){
+        window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
         location.href="http://169.56.126.158/drive/index.php/s/RIJBJzCVLulV9SU";
     }
     else if(text == "페이스북"){
