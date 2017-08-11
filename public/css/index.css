@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    font-family: 'mordon-gullrim' ,sans-serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+
+    background-color:rgb(28,40,83);
+    overflow:hidden;
+}
+
+.star-box{
+    width:100%;
+    height:285px;
+
+    background-image: url("img/star.png");
+    background-size:cover;
+
+    position:absolute;
+    z-index:99;
+    top:140px;
+}
+
+.content-box{
+    width:1200px;
+    height:100%;
+    margin:auto;
+}
+
+.header-box{
+    width:80%;
+    margin:auto;
+    margin-top:100px;
+}
+
+.header-box > .if-appjam-box{
+    color:rgb(198,154,204);
+    font-size:30px;
+
+}
+
+.logo-box > .appjam-logo{
+    background-image: url("img/13th.png");
+    background-size:cover;
+    width:250px;
+    height:122.5px;
+
+    margin:auto;
+    margin-top:-20px;
+
+}
+
+.timer{
+    width:100%;
+    height:35%;
+
+    display:flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    align-items:center;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-justify-content:center;
+}
+
+.timer > .hour , .timer > .min , .timer > .sec{
+    display:flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+.timer > .hour > p , .timer > .min > p, .timer > .sec > p{
+    font-family:'thin',sans-serif;
+    font-weight:900;
+    font-size:140px;
+    text-shadow: 0 0 10px #fff,
+        /*0 0 1px #fff,*/
+        /*0 0 3px #fff,*/
+    0 0 0px rgb(227,253,223),
+    0 0 1px #fff;
+    color:rgb(227,253,223);
+}
+
+.timer > .hour-icon{
+    font-size:40px;
+    color:white;
+    font-family:'clip',sans-serif;
+    margin-top:60px;
+}
+
+.timer  > .min-icon{
+    font-size:40px;
+    color:white;
+    font-family:'clip',sans-serif;
+    margin-top:60px;
+    margin-right:50px;
+}
+
+.timer  > .sec-icon{
+    font-size:40px;
+    color:white;
+    font-family:'clip',sans-serif;
+    margin-top:60px;
+}
+
+.timer > .min{
+    margin-left:50px;
+}
+
+.num{
+    background-size:cover;
+    background-image: url("img/number/0.png");
+    width:98px;
+    height:153px;
+
+}
+
+.start{
+    margin-right:-30px;
+}
+
+.last{
+    margin-right:-10px;
+}
+
+.btn-list{
+    width:40%;
+    height:8%;
+    margin:auto;
+
+    display:flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    align-items:center;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    -webkit-justify-content:space-between;
+}
+
+.btn-list > .btn{
+    width:20%;
+    height:60%;
+
+    display:flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    align-items:center;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-justify-content:center;
+
+    color:white;
+
+    background-color:rgb(78,88,124);
+
+    font-size:14px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+.alert > p{
+    text-align:center;
+    color:white;
+    margin-top:20px;
+    font-size:14px;
+    font-weight:100;
+}
+
+.if-appjam-box-close{
+    float:right;
+}
+
+.if-appjam-box-close > p{
+    color:rgb(198,154,204);
+    font-size:30px;
+    margin-top:-30px;
+}

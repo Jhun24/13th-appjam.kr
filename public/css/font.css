@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'mordon-gullrim';
+    src:url("font/210 모던굴림l.ttf");
+}
+
+@font-face {
+    font-family: 'thin';
+    src:url("font/TT Corals Thin-DEMO.otf");
+}
+
+@font-face {
+    font-family: "clip";
+    src:url('font/Clip.ttf');
+}
