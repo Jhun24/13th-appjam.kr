@@ -26,24 +26,25 @@ $(".btn").click(function(){
 
     if(text == "생활"){
         window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
-        location.href="http://169.56.126.158/drive/index.php/s/qU28j5i8Ns9GIsI";
+        window.open('http://169.56.126.158/drive/index.php/s/qU28j5i8Ns9GIsI', 'secWindow');
     }
     else if(text == "게임"){
         window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
-        location.href="http://169.56.126.158/drive/index.php/s/nBHRsPy2HfoqAEu";
+        window.open("http://169.56.126.158/drive/index.php/s/nBHRsPy2HfoqAEu", 'secWindow');
+
     }
     else if(text == "IOT"){
         window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
-        location.href="http://169.56.126.158/drive/index.php/s/QLY1EHu9ZxhcIet";
+        window.open('http://169.56.126.158/drive/index.php/s/QLY1EHu9ZxhcIet', 'secWindow');
     }
     else if(text == "AI"){
         window.open('https://goo.gl/forms/7e9jDgqKaqoPP2G72 ', 'newWindow');
-        location.href="http://169.56.126.158/drive/index.php/s/RIJBJzCVLulV9SU";
+        window.open('http://169.56.126.158/drive/index.php/s/RIJBJzCVLulV9SU', 'secWindow');
     }
     else if(text == "페이스북"){
         location.href="https://www.facebook.com/smarteenappclub";
     }
-    else if(text == "팀빌딩"){
+    else if(text == "팀등록"){
         location.href="https://goo.gl/forms/7e9jDgqKaqoPP2G72";
     }
     else if(text == "이벤트 및 규칙"){
