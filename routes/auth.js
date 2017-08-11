@@ -36,7 +36,7 @@ function auth(app){
 
             checktime = true;
        }
-       if(ps == "enqngksahdp4500dnjs" || checktime == true){
+       if(ps == "두부한모에4500원" || checktime == true){
            console.log("Success");
             res.send("/topic?query=fadfasflkaslkfsjlkdsmdsa");
        }
