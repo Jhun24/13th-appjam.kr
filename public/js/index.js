@@ -54,7 +54,7 @@ $(".btn").click(function(){
         console.log(password);
         $.ajax({
             method:"POST",
-            url:"http://169.56.126.158:1234//auth/login",
+            url:"http://169.56.126.158:1234/auth/login",
             data:{"password":password},
             success:function(data){
                 console.log(data)
