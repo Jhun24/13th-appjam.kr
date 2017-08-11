@@ -1,6 +1,11 @@
 /**
  * Created by janghunlee on 2017. 8. 11..
  */
+$(document).ready(function(){
+    "use strict";
+    console.log("YA")
+});
+
 $(".btn").click(function(){
     "use strict";
     console.log("OK")
