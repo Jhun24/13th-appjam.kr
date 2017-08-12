@@ -44,27 +44,14 @@ $(".btn").click(function(){
     else if(text == "페이스북"){
         location.href="https://www.facebook.com/smarteenappclub";
     }
-    else if(text == "팀등록"){
-        location.href="https://goo.gl/forms/7e9jDgqKaqoPP2G72";
+    else if(text == "서비스조사"){
+        location.href="https://docs.google.com/forms/d/e/1FAIpQLSdpRNgY8IH1cfw2u4_QywD4isix6l0B0pp8VHbIgqMBw-gnIg/viewform";
     }
     else if(text == "이벤트 및 규칙"){
         location.href="/event";
     }
     else if(text == "주제확인"){
-        var password = prompt("암호를 입력해주세요","");
-        console.log(password);
-        $.ajax({
-            method:"POST",
-            url:"http://169.56.126.158:1234/auth/login",
-            data:{"password":password},
-            success:function(data){
-                console.log(data)
-                location.href=data;
-            },
-            error:function(err){
-                console.log(err);
-            }
-        })
+        location.href="/topic"
     }
     else{
         alert("잘못된 접근 방식입니다");
@@ -78,7 +65,7 @@ $(document).ready(function(){
 
     console.log("Day : "+returnDay+" Hour : "+returnHour+" MIN : "+returnMin+" SEC : "+returnSec);
     if(returnSec < 0){
-        returnSec = 60+returnSec;
+        returnSec = 59+returnSec;
         returnMin--;
     }
 
@@ -98,7 +85,7 @@ function time(){
     "use strict";
     returnSec--;
     if(returnSec < 0){
-        returnSec = 60;
+        returnSec = 59;
         returnMin--;
     }
 

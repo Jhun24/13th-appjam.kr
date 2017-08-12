@@ -7,7 +7,6 @@ $(document).ready(function(){
 });
 
 $(".btn").click(function(){
-    "use strict";
-    console.log("OK")
-    location.href="https://drive.google.com/open?id=1EN5pyxYFOEHSGx4jeH1I2bNF3jE_i5da7AwS-kzFLIg";
+    console.log("YAYAYAY");
+    location.href="https://docs.google.com/document/d/1EN5pyxYFOEHSGx4jeH1I2bNF3jE_i5da7AwS-kzFLIg/edit";
 });

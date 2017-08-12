@@ -42,7 +42,7 @@ function auth(app){
        }
        else{
            console.log("Fail");
-           res.send("http://www.ilbe.com/");
+           res.send("http://www.facebook.com/smarteenappclub");
        }
     });
 }
